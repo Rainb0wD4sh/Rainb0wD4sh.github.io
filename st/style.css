@@ -1,0 +1,126 @@
+
+body {
+    background-color: white;
+    width: 100%;
+
+}
+.main-header{
+    position: relative;
+    width: 100%;
+    max-width: 1440px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    margin: -30px auto 0px;
+    text-decoration: underline;
+    
+}
+a {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-decoration: none;
+    background-color: transparent;
+    font-size: 20px;
+}
+article{
+    max-width: 700px;
+    margin: 40px auto 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    font-size: 17px;
+}
+
+dt {
+    font-weight: 600;
+   }
+.menu{
+    margin-left: auto;
+    padding: 25px;
+}
+.text-menu{
+    margin-right: 10px;
+}
+.text-menu:before {
+    content: '|';
+}
+.toc1{
+    font-size: 20px;
+    font-weight: 600;
+}
+.toctext{
+    color: black;
+    font-size: 17px;
+    text-decoration: underline; 
+}
+
+.star-bar{
+    max-width: 700px;
+    margin: 40px auto 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 40px;
+}
+.checked {
+    color: orange;
+  }
+.comment-area{
+    margin-top: 40px;
+    text-align:center; 
+    background-color: rgb(224, 224, 224);
+    padding: 5px; 
+    border-radius: 5px;
+    max-width: 700px;
+    margin: 40px auto 0px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.old-comments{
+    
+    float:left;
+    margin: 30px 0px 7px 0;
+}
+
+
+
+
+textarea{
+    border-radius: 15px;
+    padding: 5px;
+}
+.footer{
+    display: flex;
+    background-color: black;
+    height: 150px; 
+    margin-top: 50px;
+    width: 100%;
+   
+    
+}
+.footer-text{
+
+    color: grey;
+    margin-left: 30px;
+    margin-top: 20%;
+  
+
+
+
+}
+.footer-tm, .footer-text{
+    
+    float: left;
+}
+.footer-tm{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-decoration: underline;
+    background-color: transparent;
+    font-size: 20px;
+}
+.author, .datePublished{
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 500;
+    color: #adadad;
+}
+
