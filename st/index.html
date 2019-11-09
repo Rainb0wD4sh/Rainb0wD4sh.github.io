@@ -7,26 +7,49 @@
     <meta name = "keywords" content = "Маркетинг, интернет-маркетинг,SEO,блог ">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  
     <title>Как добывать естественные ссылки для SEO почти бесплатно.
     </title>
 </head>
 <body>
-    <div class="conteiner">
+    <div class="conteiner-fluid">
         <header class="main-header">
             <a href="index.html">
-                <img src="Ymxvb21iZXJnX19fQkJfRXhhbXBsZQ--1454431104.png" alt="Bloomberg Blog" title="Bloomberg новостной блог" class="header_Logo">
-            </a>
-            <div class="menu">
-                <nav class="Blok-menu">
-                    <a class="text-menu" href="#" title="Новости PR">PR</a>
-                    <a class="text-menu" href="#" title="Новости Медиа">Медиа </a>
-                    <a class="text-menu" href="#" title="Новости SMM">SMM</a>
-                    <a class="text-menu" href="#" title="Контент-маркетинг">Контент-маркетинг</a>
-                    <a class="text-menu" href="#" title="Новости SEO">SEO</a>
-                </nav>
-            </div>
+            <nav class="menu navbar  navbar-expand-lg navbar-dark bg-dark">
+                    <a class="navbar-brand" href="#">BLOOMBERG</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link " href="#" title="Новости PR">PR<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" title="Новости Медиа">Медиа</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" title="Новости SMM">SMM</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" title="Контент-маркетинг">Контент-маркетинг</a>
+                    </li>
+                    <li class="nav-item">
+                            <a class="nav-link" href="#" title="Новости SEO">SEO</a>
+                    </li>
+                    </ul>
+                </div>
+            </nav>
+
         </header>
+        <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                  <li class="breadcrumb-item"><a href="#">Главная</a></li>
+                  <li class="breadcrumb-item"><a href="#">SEO</a></li>
+                  <li class="breadcrumb-item active" aria-current="page">Как добывать естественные ссылки для SEO почти бесплатно</li>
+                </ol>
+              </nav>
         <article>
         
             <h1 itemprop="headline" class="main-title">Как добывать естественные ссылки для SEO почти бесплатно. 5 проверенных способов</h1>
@@ -83,7 +106,7 @@
                 
                 <p>Проблема в том, что часто естественный ссылочный профиль воспринимается как нечто, не требующее усилий. То, с чем не нужно работать, потому что «все растет само». Это не правда. Естественными ссылками нужно заниматься точно так же, как нужно заниматься любым другим аспектом поисковой оптимизации.</p>
                 <p>Эта подборка методов, как собрать ссылки для SEO, будет полезна всем, кто занимается маркетингом, пиаром, управлением продуктом, кто хочет повлиять на выдачу сайта компании в поисковых машинах. Поэтому держите инструкцию и начинайте действовать.</p>
-                <img  class="image" src="seo.jpg" alt="seo" title="SEO">
+                <img  class="image-fluid" src="seo.jpg" alt="seo" title="SEO">
                 <h2>
                     <span class="1-text" id="Каталоги_организаций">1. Каталоги организаций и справочники</span>
                 </h2>
@@ -133,11 +156,16 @@
             <span class="fa fa-star"></span>
         </div>
         <div class="comment-area">
-            <form action="textarea1.php" method="post">
-                <p><b>Введите ваш комментарий:</b></p>
-                <p><textarea rows="5" cols="90" name="text"></textarea></p>
-                <p><input type="submit" value="Отправить"></p>
-            </form>
+        <form>
+            <div class="form-group">
+                <label for="exampleFormControlTextarea1">Оставьте свой комментарий</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                <button type="submit" class="btn btn-dark">Отправить</button>
+
+            </div>
+        </form>
+        
+            
             <div class="old-comments">
                 <div class="name-date">
                     <span class="img_comment"><img src="avatar92.jpg" alt="avatar"></span>
@@ -156,8 +184,9 @@
                     </p>
                 </div>
             </div>
-        </div>   
-        <footer class="footer">
+        </div> 
+        </div>  
+        <footer class="footer bg-dark">
             <div>
                 <p class="footer-text">Bloomberg. 2019</p>
                 <a class="footer-tm footer-text" href="#" title="Контакты"> Контакты</a>
@@ -165,6 +194,9 @@
 
         </footer>
     </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>    
 </body>    
 
 </html>
