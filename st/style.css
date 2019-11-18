@@ -32,11 +32,19 @@ p{
 dt {
     font-weight: 600;
    }
+footer{
+    color: rgb(187, 187, 187);
+}
 .breadcrumb{
    margin-top: -20px; 
    color:grey;
    font-size: 15px; 
 
+}
+.nav-footer{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: transparent;
 }
 .navbar-brand{ 
     margin-left: 2%;
@@ -94,22 +102,6 @@ textarea{
     display: flex;
     width: 100%;   
 }
-.footer-text{
-
-    color: grey;
-    margin-left: 30px;
-    margin-top: 20%;
-  
-}
-.footer-tm, .footer-text{
-    
-    float: left;
-}
-.footer-tm{
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
-    background-color: transparent;
-    font-size: 20px;
 }
 .author, .datePublished{
     font-size: 12px;
@@ -117,5 +109,14 @@ textarea{
     font-weight: 500;
     color: #adadad;
 }
-
+footer .nav-footer a {
+    color:white;
+    font-size: 15px;
+    line-height: 30px;  
+}
+footer .cont-footer a {
+    color:white;
+    font-size: 18px;
+    line-height: 30px;  
+}
 
